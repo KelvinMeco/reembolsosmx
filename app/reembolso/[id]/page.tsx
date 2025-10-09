@@ -167,7 +167,7 @@ export default function ReembolsoPage() {
                 </div>
                 
                 <div className="flex justify-between text-sm">
-                  <span className="text-gray-500">Fecha de creación</span>
+                  <span className="text-gray-500">Fecha Limite</span>
                   <span className="font-medium text-gray-800">
                     {new Date(reembolso.created_at).toLocaleDateString('es-MX')}
                   </span>
