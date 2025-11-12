@@ -112,8 +112,8 @@ export default function PanelAdmin() {
       alert("Los periodos deben ser al menos 1.")
       return false
     }
-    if (parseInt(dias_reembolso) < 1) {
-      alert("Los días para reembolso deben ser al menos 1.")
+    if (parseInt(dias_reembolso) < - 1) {
+      alert("Los días para reembolso deben ser al menos  - 1.")
       return false
     }
     return true
